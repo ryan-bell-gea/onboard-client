@@ -16,5 +16,7 @@ This is a Python script that sends a request to a public repository and scrapes 
   
 ## Next Steps
 - Add applications to PATH
+- Finish writing installers
+- Add update capability for existing installations
 - Package as a standalone executable
 - Get this whitelisted from DT Security - they have an ongoing project to remove local admin rights and every app that would need admin rights has to be approved through them. I'm working on testing with someone from that team
