@@ -25,6 +25,12 @@ def url_response(url):
 
 
 def java_install():
+    
+    # command = 'curl -L -o "corretto-jdk-17.0.6.msi" https://corretto.aws/downloads/latest/amazon-corretto-17-x64-windows-jdk.msi'
+    # command2 = 'msiexec /i "corretto-jdk-17.0.6.msi" /passive /norestart'
+    # subprocess.run(command)
+    # subprocess.run(command2)
+    
     username = os.getlogin()
     parentPath = "C:/Users/" + username + "/Downloads/"
     newDir = "Onboarding"
