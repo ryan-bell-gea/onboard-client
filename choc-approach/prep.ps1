@@ -1,0 +1,1 @@
+rm "C:\ProgramData\Chocolatey\" -r -force
