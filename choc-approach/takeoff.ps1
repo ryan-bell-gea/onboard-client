@@ -1,6 +1,7 @@
 choco install git
 choco install wget
 choco install curl
+choco install python
 choco install corretto11jdk
 choco install maven
 choco install intellijidea-community
