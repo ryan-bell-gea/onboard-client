@@ -20,3 +20,10 @@ This is a Python script that sends a request to a public repository and scrapes 
 - Add update capability for existing installations
 - Package as a standalone executable
 - Get this whitelisted from DT Security - they have an ongoing project to remove local admin rights and every app that would need admin rights has to be approved through them. I'm working on testing with someone from that team
+
+## Instructions
+1. Install Python >3.9 and add it to your PATH
+2. If you have git installed, clone this repository to your machine. If not, download as a zip file and unzip the contents to a user-level directory (C:/Users/<yourSSO>/)
+3. Open command prompt as an Administrator and navigate into the `onboard-client` directory
+4. Run `pip install -r requirements.txt`
+5. Run `python main.py`

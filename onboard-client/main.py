@@ -33,10 +33,8 @@ if helpers.is_admin():
     helpers.set_java_env()
     helpers.set_maven_env()
 else:
-    # prompt user to elevate
+    # prompt user to elevate and rerun
     ctypes.windll.shell32.ShellExecuteW(None, u"runas", sys.executable, " ".join(sys.argv), None, 1)
-    helpers.set_java_env()
-    helpers.set_maven_env()
 
 # install after java and maven env vars are set - do not need elevation
 helpers.intellij_install()
