@@ -11,8 +11,10 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Kickoff
+        working-directory: ./choc-approach
         run: |
           powershell.exe Set-ExecutionPolicy Bypass -Scope Process -Force; .\ignition.ps1
       - name: Verify Installation
+        working-directory: ./choc-approach
         run: |
           powershell.exe Set-ExecutionPolicy Bypass -Scope Process -Force; .\verify.ps1
