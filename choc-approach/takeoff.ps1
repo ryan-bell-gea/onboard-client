@@ -1,10 +1,13 @@
-choco install -y git
-choco install -y wget
-choco install -y curl
-choco install -y python
-choco install -y corretto11jdk
-choco install -y maven
-choco install -y intellijidea-community
-choco install -y slack
-choco install -y vscode
-choco install -y postman
+choco upgrade -yr git
+choco upgrade -yr wget
+choco upgrade -yr curl
+choco upgrade -yr python
+choco upgrade -yr corretto11jdk
+choco upgrade -yr maven
+choco upgrade -yr intellijidea-community
+choco upgrade -yr slack
+choco upgrade -yr vscode
+choco upgrade -yr postman
+
+Write-Host "Verification is here: "
+choco export
