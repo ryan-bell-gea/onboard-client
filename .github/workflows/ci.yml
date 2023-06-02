@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  test:
+  Integration-Windows:
     runs-on: windows-latest
     steps:
       - uses: actions/checkout@v2
