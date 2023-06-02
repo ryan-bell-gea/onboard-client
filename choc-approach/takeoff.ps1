@@ -1,13 +1,10 @@
-choco upgrade -yr git
-choco upgrade -yr wget
-choco upgrade -yr curl
-choco upgrade -yr python
-choco upgrade -yr corretto11jdk
-choco upgrade -yr maven
-choco upgrade -yr intellijidea-community
-choco upgrade -yr slack
-choco upgrade -yr vscode
-choco upgrade -yr postman
-
-Write-Host "Verification is here: "
-choco export
+choco upgrade -y --limit-output git
+choco upgrade -y --limit-output wget
+choco upgrade -y --limit-output curl
+choco upgrade -y --limit-output python
+choco upgrade -y --limit-output corretto11jdk
+choco upgrade -y --limit-output maven
+choco upgrade -y --limit-output intellijidea-community
+choco upgrade -y --limit-output slack
+choco upgrade -y --limit-output vscode
+choco upgrade -y --limit-output postman
