@@ -10,6 +10,10 @@ jobs:
     runs-on: windows-latest
     steps:
       - uses: actions/checkout@v2
+      - name: Prepare
+        working-directory: ./choc-approach
+        run: |
+          powershell.exe Set-ExecutionPolicy Bypass -Scope Process -Force; .\prep.ps1
       - name: Kickoff
         working-directory: ./choc-approach
         run: |
