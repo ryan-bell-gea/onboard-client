@@ -18,6 +18,10 @@ jobs:
         working-directory: ./choc-approach
         run: |
           powershell.exe Set-ExecutionPolicy Bypass -Scope Process -Force; .\ignition.ps1
+      - name: Installation
+        working-directory: ./choc-approach
+        run: |
+          powershell.exe Set-ExecutionPolicy Bypass -Scope Process -Force; .\takeoff.ps1
       - name: Verify Installation
         working-directory: ./choc-approach
         run: |
