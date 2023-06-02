@@ -1,10 +1,10 @@
-choco install git
-choco install wget
-choco install curl
-choco install python
-choco install corretto11jdk
-choco install maven
-choco install intellijidea-community
-choco install slack
-choco install vscode
-choco install postman
+choco install -y git
+choco install -y wget
+choco install -y curl
+choco install -y python
+choco install -y corretto11jdk
+choco install -y maven
+choco install -y intellijidea-community
+choco install -y slack
+choco install -y vscode
+choco install -y postman

@@ -1,0 +1,11 @@
+
+$env:PATH -match "git"
+$env:PATH -match "wget"
+$env:PATH -match "curl"
+$env:PATH -match "python"
+$env:PATH -match "java"
+$env:PATH -match "maven"
+Test-Path -Path "$PWD\AppData\Local\JetBrains\IdeaIC*"
+Test-Path -Path "$PWD\AppData\Local\slack"
+Test-Path -Path "$PWD\AppData\Local\Programs\Microsoft VS Code"
+Test-Path -Path "$PWD\Appdata\Local\Postman"
