@@ -13,11 +13,11 @@ Test-Path -Path "C:\ProgramData\chocolatey\lib\maven"
 Write-Host "Is IntelliJ installed?"
 Test-Path -Path "C:\Program Files\JetBrains"
 Write-Host "Is Slack installed?"
-Test-Path -Path "%LOCALAPPDATA%\slack"
+Test-Path -Path "C:\Users\runneradmin\AppData\Local\slack"
 Write-Host "Is VS Code installed?"
 Test-Path -Path "C:\Program Files\Microsoft VS Code"
 Write-Host "Is Postman installed?"
-Test-Path -Path "%LOCALAPPDATA%\Postman"
+Test-Path -Path "C:\Users\runneradmin\AppData\Local\Postman"
 
 Write-Host "Choco Installed Packages: "
 choco export
