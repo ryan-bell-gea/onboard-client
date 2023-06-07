@@ -13,7 +13,8 @@ This is a collection of Powershell scripts that will automate the download and i
 1. Open Powershell as administrator
 2. Navigate to the `choc-approach` directory
 3. Run `Set-ExecutionPolicy Bypass -Scope Process -Force; .\ignition.ps1`
-4. Run `Set-ExecutionPolicy Bypass -Scope Process -Force; .\takeoff.ps1`
+4. Open a new Powershell session as administrator
+5. In that new window, navigate to the `choc-approach` directory and run `Set-ExecutionPolicy Bypass -Scope Process -Force; .\takeoff.ps1`
 
 ## What's Included
 - Chocolatey
@@ -21,7 +22,7 @@ This is a collection of Powershell scripts that will automate the download and i
 - wget
 - curl
 - Python
-- Corretto 11 JDK
+- Corretto 11 JDK (sets JAVA_HOME)
 - Maven
 - IntelliJ IDEA Community Edition
 - Slack
